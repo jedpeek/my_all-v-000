@@ -10,4 +10,4 @@ block_return = []
   block_return.include?(false) ? false : true
 end
 
-my_all?([1,2,3]){|x| x < 2}
+my_all?([1,2,3]){|x| x < 4}
