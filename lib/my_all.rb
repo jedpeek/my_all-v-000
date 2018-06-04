@@ -3,8 +3,8 @@ require 'pry'
 def my_all?(arr)
 i = 0
 block_return = []
-  while i < collection.size
-    block_return << yield(collection[i])
+  while i < arr.size
+    block_return << yield(arr[i])
     i += 1
   end
   if block_return.include?(false)
