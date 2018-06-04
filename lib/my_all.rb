@@ -14,4 +14,4 @@ block_return = []
   end
 end
 
-my_all?(collection){|x| x.upcase}
+my_all?(collection){|x| i < 2}
